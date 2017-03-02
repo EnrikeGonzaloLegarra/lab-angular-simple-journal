@@ -1,0 +1,5 @@
+<h2>Journal Entries</h2>
+<p *ngFor='let entry of entries'>
+  <span><a href="/entry/{{entry._id}}">title: {{entry.title}}</a></span><br>
+  <span>Date: {{entry.date}}</span>
+</p>
